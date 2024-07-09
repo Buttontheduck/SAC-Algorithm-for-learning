@@ -1,4 +1,4 @@
-### Soft Actor Critic Implementation by me
+### Soft Actor Critic Implementation
 
 - This algorithm is solving Pendulum-v1 environment from gym by using soft actor critic algorithm
 - Noise class added but did not used
