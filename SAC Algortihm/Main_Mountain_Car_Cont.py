@@ -11,7 +11,7 @@ from torch.distributions import Normal
 from torch import tensor
 from torch.autograd import Variable
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from mr import Actor, Critic, clip_grad,ActorNoise
+from Networks_MCC import Actor, Critic, clip_grad,ActorNoise
 from datetime import datetime
 from collections import namedtuple
 import matplotlib.pyplot as plt
