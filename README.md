@@ -1,7 +1,7 @@
 ### Soft Actor Critic Implementation
 
-- This algorithm is solving Pendulum-v1 environment from gym by using soft actor critic algorithm
-- Noise class added but was not used
+- This algorithm is solving Pendulum-v1 and Mountain Car Continuous-v0 environments from gym by using Soft Actor Critic algorithm
+- In Mountain Car Continuous solution, OU noise added to increase exploration.
 - Pytorch is used to build machine learning models
 - Trained on Apple Macbook M2 Pro (12 cpu cores 19 gpu cores, 16 gb ram)
 - For more info [Soft Actor-Critic (SAC) Algorithm](https://spinningup.openai.com/en/latest/algorithms/sac.html)
